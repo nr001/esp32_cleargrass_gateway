@@ -8,13 +8,13 @@ This is a gateway that uses an esp32 for collecting bluetooth data of the clearg
 The ESP32 automatically collects the bluetooth messages sent by the ClearGrass Thermometer(s).
 
 Following data is captured:<br>
--Mac address<br>
--Temperature<br>
--Humidity<br>
--Battery Level<br>
--Temperature Date<br>
--Humidity Date<br>
--Battery Level Date<br><br>
+- Mac address<br>
+- Temperature<br>
+- Humidity<br>
+- Battery Level<br>
+- Temperature Date<br>
+- Humidity Date<br>
+- Battery Level Date<br><br>
 
 The last 3 values contain a timestamp indicating the date and time when the last update for the corresponding value was retrieved.
 <br><br>
@@ -29,5 +29,5 @@ ip_of_esp_32/json => get the collected data as json structure<br>
 - Just take a ESP32 microprocessor (https://en.wikipedia.org/wiki/ESP32) and deploy the ino code to the device. Don't forget to change your wifi credentials first!
 
 # notes
--Some parts of the code are taken from this great project: http://educ8s.tv/esp32-xiaomi-hack/<br>
--The code for sure is not perfect, feel free to share your ideas and improvements<br>
+- Some parts of the code are taken from this great project: http://educ8s.tv/esp32-xiaomi-hack/<br>
+- The code for sure is not perfect, feel free to share your ideas and improvements<br>
