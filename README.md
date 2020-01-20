@@ -1,7 +1,7 @@
 # esp32_cleargrass_gateway
 Build a esp32 wifi gateway that collects cleargrass thermometer data
 
-This is a gateway that uses an esp32 for collecting bluetooth data of the cleargrass e-ink thermometer. The collected data can be retrieved via a wifi webinterface as json data structure which makes the integration to other systems (smarthome / etc.) quite simple.
+This is a gateway that uses an esp32 for collecting bluetooth data of the cleargrass e-ink thermometer (https://qingping.co/cg_temp_rh_monitor/overview). The collected data can be retrieved via a wifi webinterface as json data structure which makes the integration to other systems (smarthome / etc.) quite simple.
 
 
 # example
@@ -19,13 +19,14 @@ Following data is captured:<br>
 The last 3 values contain a timestamp indicating the date and time when the last update for the corresponding value was retrieved.
 <br><br>
 There are 2 Webinterface URLs:<br>
-ip_of_esp_32<br>
+ip_of_esp_32 => show the main webinterface<br>
 ![Alt text](webinterface_main.JPG?raw=true "Webinterface Main")
 <br><br>
-ip_of_esp_32/json<br>
+ip_of_esp_32/json => get the collected data as json structure<br>
 ![Alt text](webinterface_json.JPG?raw=true "Webinterface Json")
 
 # installation
+- Just take a ESP32 microprocessor (https://en.wikipedia.org/wiki/ESP32) and deploy the ino code to the device. Don't forget to change your wifi credentials first!
 
 # notes
 -Some parts of the code are taken from this great project: http://educ8s.tv/esp32-xiaomi-hack/<br>
