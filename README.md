@@ -26,8 +26,8 @@ ip_of_esp_32/json => get the collected data as json structure<br>
 ![Alt text](webinterface_json.JPG?raw=true "Webinterface Json")
 
 # installation
-- Just take a ESP32 microprocessor (https://en.wikipedia.org/wiki/ESP32) and deploy the ino code to the device. Don't forget to change your wifi credentials first!
+- Just take a ESP32 microprocessor (https://en.wikipedia.org/wiki/ESP32) and deploy the code to the device. Don't forget to change your wifi credentials first!
 
 # notes
-- Some parts of the code are taken from this great project: http://educ8s.tv/esp32-xiaomi-hack/<br>
+- Parts of the code are taken from this great project: http://educ8s.tv/esp32-xiaomi-hack/ Check it out!<br>
 - The code for sure is not perfect, feel free to share your ideas and improvements<br>
